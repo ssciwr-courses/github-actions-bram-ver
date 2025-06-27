@@ -5,6 +5,7 @@ def my_decorator(func):
         print("Tidying up the messes...")
     return wrapper
 
+
 @my_decorator
 def my_func(a, myprint=True):
     b = a + 2
@@ -15,3 +16,4 @@ def my_func(a, myprint=True):
 if __name__ == "__main__":
     print("Calling the function")
     my_decorator(my_func(5, myprint=True))
+    
