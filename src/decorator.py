@@ -16,4 +16,3 @@ def my_func(a, myprint=True):
 if __name__ == "__main__":
     print("Calling the function")
     my_decorator(my_func(5, myprint=True))
-    
